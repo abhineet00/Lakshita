@@ -1,0 +1,107 @@
+body {
+  background-color: #73cdff;
+  margin: 0;
+  padding: 0;
+}
+
+#main-text {
+  text-align: center;
+  font-size: 5rem;
+  color: #005585;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+#gif-corner {
+  width: 20rem;
+}
+
+.pg2 {
+  font-family: poppins;
+  display: none;
+  text-align: center;
+}
+.pg2 h1 {
+  font-size: 3rem;
+  color: #005585;
+}
+.pg2 h4 {
+  font-size: 1.5rem;
+  color: #005585;
+}
+.psm {
+  padding: 20px;
+}
+.nextbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: hsla(122, 39%, 49%, 0); /* Green color, you can adjust it */
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 50px;
+}
+.yoda {
+  width: 100vw;
+}
+.yoda img {
+  width: 100%;
+}
+/* //////////////////////////////////// */
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #080808;
+  height: 100vh;
+}
+.pg3 {
+  display: none;
+  height: 100vh;
+}
+
+/* .image img {
+  margin: 10px;
+  max-width: 20rem;
+} */
+.collage video {
+  width: 70%;
+}
+#next-button-pg3 {
+  position: absolute;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: hsla(122, 39%, 49%, 0); /* Green color, you can adjust it */
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  bottom: 50px;
+}
+.pg4 {
+  background-color: #00012c;
+  display: none;
+  font-family: poppins;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.pg4 h4 {
+  color: white;
+}
