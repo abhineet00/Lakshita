@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="pg1">
+      <div id="main-text">
+        <p>Hello Lakshita</p>
+      </div>
+      <div class="gif">
+        <img id="gif-corner" src="yo gif.gif" alt="Corner GIF" />
+      </div>
+      <div class="nextbutton">
+        <button id="next-button" onclick="showPageTwo()">Next</button>
+      </div>
+    </div>
+    <div class="pg2" id="personal messsage">
+      <h4>First Of All</h4>
+      <h1>Happy birthday</h1>
+
+      <div class="yoda">
+        <img src="yoda.gif" alt="" />
+      </div>
+      <h4 class="psm">
+        I hope you are in mood atleast today <br />
+        So how's your life, mast right ! <br />Today is a very special day maybe
+        not for you but for me it is. <br />
+        because today you came in this dramatic world (best world description
+        for you as per your life ) if its not to ofc hum kabhi mile nhi hote So
+        ya it is special ,very special day and I hope this birthday will give
+        you lot of happiness and chances to grow and become the better version
+        of yourself and I will try my best to keep u away from all the drama and
+        tension u been through the previous year. <br />
+        So ya Happiest Birthday lakshita <br />bore to hogyi itna padh ke so go
+        to next page, some entertainment is there
+      </h4>
+      <div class="nextbutton">
+        <button id="next-button" onclick="showPageThree()">Next</button>
+      </div>
+    </div>
+    <!-- <div class="pg3">
+      <div class="collage">
+        <div class="image"><img src="pics/1.jpg" alt="Image 1" /></div>
+        <div class="image"><img src="pics/1.jpg" alt="Image 2" /></div>
+        <div class="image"><img src="pics/1.jpg" alt="Image 3" /></div>
+      </div>
+    </div> -->
+    <div class="pg3">
+      <div class="collage">
+        <video src="video.mp4" controls></video>
+      </div>
+      <div class="nextbutton nbpg3">
+        <button id="next-button-pg3" onclick="showPageFour()">Next</button>
+      </div>
+    </div>
+    <div class="pg4">
+      <h4 class="psm">
+        Okay so I know I know video is not good but I tried. <br />
+        I really did 🥲 <br />
+        Whatever so ya at last All I wanna say is thank you very very veryy much
+        Lakshita for being a part of life. <br />
+        I know I dont understand you fully sometimes but I hope one day I will
+        ,ofc if you want to ,but ya I just want you to remember one thing always
+        in your life Like literally life life ,Whenever you need me I will be
+        there or if not, you will bring me there , <br />
+        I just want one thing from you that anyday if you need me you will call
+        me without a single thought,<br />
+        Even if we had fight or anything or I said something which should I not
+        . You should know I can never be angry with you never . So even If I act
+        chutiya and anything please be a big person come to you. <br />
+        Alright I think kabhi bakwas karli maine and I m sure tu bore ho chuki
+        hogi so ya sooja <br />
+        And ha last just be <b>The Lakshita </b> <br />
+        That is too enough for me <br />
+        Ofc Happiest birthday Lakshita ❤️❤️
+      </h4>
+    </div>
+
+    <script>
+      function showPageTwo() {
+        document.querySelector(".pg1").style.display = "none";
+        document.querySelector(".pg2").style.display = "block";
+      }
+      function showPageThree() {
+        document.querySelector(".pg1").style.display = "none";
+        document.querySelector(".pg2").style.display = "none";
+        document.querySelector(".pg3").style.display = "block";
+      }
+      function showPageFour() {
+        document.querySelector(".pg1").style.display = "none";
+        document.querySelector(".pg2").style.display = "none";
+        document.querySelector(".pg3").style.display = "none";
+        document.querySelector(".pg4").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
